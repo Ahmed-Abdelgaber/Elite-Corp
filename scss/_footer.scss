@@ -1,0 +1,113 @@
+.footer {
+    margin: auto 60px;
+    .f1 {
+        margin-bottom: 15px;
+        h2 {
+            .felite {
+                color: $blue-main-color;
+                font-weight: bold;
+                font-size: 50px;
+            }
+            .fcorp {
+                color: $red-main-color;
+                font-size: 50px;
+                opacity: 0.5;
+            }
+            margin-bottom: 10px;
+        }
+        p {
+            color: rgb(133, 133, 133);
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 15px;
+            color: $blue-main-color;
+            cursor: pointer;
+            i {
+                font-size: 15px;
+                margin-right: 5px;
+                color: $blue-main-color;
+                transition: 0.7s;
+            }
+            &:hover {
+                text-decoration: underline;
+                color: $blue-main-color;
+                i {
+                    transform: translatex(2px);
+                }
+            }
+        }
+    }
+    .f2 {
+        @media (max-width: 992px) {
+            margin-left: 0;
+        }
+        margin-left: 10px;
+        margin-bottom: 15px;
+        h2 {
+            font-size: 30px;
+            color: $blue-main-color;
+        }
+        .f2table {
+            margin-top: 30px;
+            padding: 0;
+            @media (max-width: 992px) {
+                margin-top: 5px;
+            }
+            ul {
+                list-style: none;
+                padding-left: 0;
+                li {
+                    color: $blue-main-color;
+                    font-size: 15px;
+                    cursor: pointer;
+                    i {
+                        font-size: 12px;
+                        margin-right: 5px;
+                        color: rgb(133, 133, 133);
+                        transition: 0.7s;
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                        color: $blue-main-color;
+                        i {
+                            transform: translatex(2px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .f3 {
+        @media (max-width: 992px) {
+            margin-left: 0;
+        }
+        margin-left: 10px;
+        margin-bottom: 15px;
+        h2 {
+            font-size: 30px;
+            color: $blue-main-color;
+            margin-bottom: 30px;
+            @media (max-width: 992px) {
+                margin-bottom: 10px;
+            }
+        }
+        p {
+            color: rgb(133, 133, 133);
+            margin-bottom: 20px;
+            @media (max-width: 992px) {
+                margin-bottom: 10px;
+            }
+            span {
+                color: $blue-main-color;
+                cursor: pointer;
+                transition: 0.7s;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

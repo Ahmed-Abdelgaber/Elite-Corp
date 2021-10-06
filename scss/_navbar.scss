@@ -1,0 +1,27 @@
+nav {
+    padding: 10px;
+    a {
+        .elite {
+            color: $blue-main-color;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .corp {
+            color: $red-main-color;
+            font-size: 35px;
+            opacity: 0.5;
+        }
+    }
+    .navbar-nav {
+        margin-left: auto ;
+        .nav-link {
+            font-size: large;
+            color: $blue-main-color !important ;
+            text-transform: uppercase;
+            margin-left: 20px;
+        }
+    }
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+    color: $red-main-color !important;
+}

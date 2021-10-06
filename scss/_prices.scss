@@ -1,0 +1,74 @@
+.pricing-table{
+    padding: 50px;
+    background-color: #eee;
+    .cards-text{
+        h1{
+            font-size: 50px;
+            font-weight: bolder;
+            margin-bottom: 10px;
+        }
+        p{
+            width: 80%;
+            font-size: 20px;
+            margin: auto;
+            line-height: 1.4;
+            color: rgb(133, 133, 133);
+        }
+    }
+    .my-cards{
+        margin-top: 50px;
+        .c{
+            transform: translateY(-20px);
+            .ch1{
+                background-color: $red-main-color;
+                color: #fff;
+            }
+            .cbtn{
+                background-color: $blue-main-color;
+                border-color: $blue-main-color;
+            }
+            @media (max-width: 992px) {
+                transform: translateY(0);
+            }
+        }
+        .card{
+            margin: 15px;
+            padding: 0;
+           // height: 600px;
+           .card-body{
+               padding: 0;
+           }
+           h2{
+               font-size: 40px;
+               padding: 30px 20px 0;
+               color: $blue-main-color;
+               font-weight: normal;
+           }
+           .card-subtitle{
+               margin-top: 10px;
+           }
+           h1{
+               margin: 20px 0;
+               background-color: #eee;
+               color: $blue-main-color;
+               font-weight: bold;
+               span{
+                font-size: 20px;
+                font-weight: normal;
+                text-transform: uppercase;
+           }
+        }
+        h6{
+            margin: 35px;
+            color: rgb(133, 133, 133);
+        }
+        button{
+            margin: 10px auto 80px;
+            letter-spacing: 3px;
+            width: 200px;
+            border-radius: 0;
+            background-color: $red-main-color;
+        }
+        }  
+    }
+}

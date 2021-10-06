@@ -1,0 +1,28 @@
+.upper-header {
+    background-color: $blue-main-color;
+    color: #fff;
+    padding: 5px;
+    .row {
+        .col-sm {
+            padding: 10px;
+            .email-span {
+                margin: 30px;
+            }
+            i {
+                margin: 5px;
+            }
+            .lets-work {
+                margin: 0 20px;
+                color: rgb(160, 160, 160);
+            }
+            .get-quote {
+                background-color: $blue-main-color;
+                border: 1px solid;
+                border-color: $red-main-color;
+                color: #fff;
+                padding: 3px 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}

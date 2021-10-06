@@ -1,0 +1,38 @@
+.statics {
+    padding: 100px 0;
+    .icons {
+        padding: 0 30px;
+        .icon {
+            i {
+                font-size: 60px;
+                color: $blue-main-color;
+            }
+            h1 {
+                color: $blue-main-color;
+                font-weight: bold;
+            }
+            h3 {
+                font-size: 15px;
+                font-weight: normal;
+                color: $red-main-color;
+            }
+        }
+    }
+    .header {
+        margin: 50px 0;
+        padding: 80px 100px;
+        background-color: $red-main-color;
+        .htext {
+            color: #fff;
+        }
+        .hbtn {
+            background-color: $red-main-color;
+            color: #fff;
+            border: 1px solid #fff;
+            letter-spacing: 4px;
+            padding: 5px 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}

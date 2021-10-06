@@ -1,0 +1,18 @@
+.features{
+    .row{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    i{
+        margin: 5px;
+        padding: 15px;
+        color: #fff;
+        background-color: $red-main-color;
+    }
+    h3{
+        color: $blue-main-color;
+    }
+    p{
+        color: rgb(133, 133, 133);
+    }
+}
